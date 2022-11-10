@@ -1,0 +1,194 @@
+.Plan{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0 15px;
+
+   }
+
+   .Plan H2{
+
+    font-weight: bolder;
+    font-size: 56px;
+
+}
+
+.Plan p{
+
+    color: #333333de;
+
+
+}
+
+.Plan_Wrapper{
+  overflow: hidden;
+}
+
+.Plan_container{
+ 
+    
+    width: 100%;
+    background-color: #6a1254;
+    margin-top: 250px;
+    /* border-radius: 50% 50% 0% 0% / 100% 100% 0 0 ;
+    transform: scaleX(1.5); */
+
+}
+
+
+
+
+.Myplan{
+    text-align: center;
+    padding: 40px 40px;
+    margin-top: -70px;
+    
+}
+
+.Standard , .Basic{
+    background-color: #fff;
+}
+
+.Premium{
+    background-color: #000;
+    color: #fff;
+}
+
+.Premium .Plan_Header_Card{
+    color: #ec4899;
+}
+
+.Premium .Plan_Header_Body ul li span{
+ 
+   color: #fff;
+
+}
+
+.Standard .Plan_Header_btn button{
+    background-color: #fff;
+    color:#831843;
+    border: 1px solid #831843;
+}
+
+.Basic .Plan_Header_btn button{
+    background-color: #831843;
+    color:#fff;
+    border: 1px solid #831843;
+}
+
+
+
+.Plan_card{
+    height: 80vh;
+    border: 1px solid #c2c2c2;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 20px 0px;
+
+    
+
+}
+
+.Plan_Header_Card{
+  padding-top: 60px;
+
+}
+
+.Plan_Header_Card h2{
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .Plan_Header_Card p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #831843;
+  }
+
+  .Plan_Header_Body{
+ 
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .Plan_Header_Body ul{
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .Plan_Header_Body ul li{
+   padding: 10px 0px;
+  }
+
+  .flex-item {
+    flex: 0 1 auto;
+  }
+
+  .Plan_Header_btn{
+   width: 100%;
+
+  }
+
+  .Plan_Header_btn button{
+
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 24px;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+
+
+  }
+
+  .Myicon{
+   background-color: #6a1254;
+   border-radius: 25px;
+   padding: 5px;
+   color: #fff;
+  }
+
+  .Premium .Myicon{
+    background-color: #ec4899;
+  }
+
+  
+
+  @media screen and (min-width: 992px) {
+
+    .Plan_container{
+      
+        width: 100%;
+        background-color: #6a1254;
+        margin-top: 250px;
+        /* border-radius: 50%; */
+        /* border-radius: 50% 50% 0% 0% / 100% 100% 0 0 ;
+        transform: scaleX(1.5); */
+    
+    }
+
+    .Plan_card{
+        height: 80vh;
+        border: 1px solid #c2c2c2;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+   
+        margin-top: -150px;
+        border-radius: 25px;
+        
+    
+    }
+
+}
+
+

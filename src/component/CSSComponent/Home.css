@@ -1,0 +1,78 @@
+.Hero_Section{
+    padding-top: 140px;
+    text-align: center;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.Hero_Section H2{
+
+    font-weight: bolder;
+    font-size: 56px;
+    padding: 0 10px;
+}
+
+.Hero_Section p{
+
+    font-size: 22px;
+
+}
+
+.Get_Started{
+
+    background-color: #831843;
+    color:#f9f5f7;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    position:relative;
+    top:-30;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+.Hero_Card{
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 150px;
+}
+
+.Image_fit{
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.Adjust_Image{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Image_fit{
+    
+        height: 320px;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .Adjust_Image{
+        margin-top: 0px;
+    }
+
+    .Image_fit{
+        margin:10px 0px;
+    }
+
+}
